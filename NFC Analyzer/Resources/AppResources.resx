@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MY APPLICATION</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menu Item</value>
+  </data>
+  <data name="programTitle" xml:space="preserve">
+    <value>NFC Analyser</value>
+  </data>
+  <data name="initButton" xml:space="preserve">
+    <value>Initialize</value>
+  </data>
+  <data name="ProxDevInit" xml:space="preserve">
+    <value>Proximity device initialized.</value>
+  </data>
+  <data name="ScanningForTag" xml:space="preserve">
+    <value>Scanning for tag.</value>
+  </data>
+  <data name="AttachNfcReader" xml:space="preserve">
+    <value>Please attach your NFC Reader.</value>
+  </data>
+  <data name="ClickInitButton" xml:space="preserve">
+    <value>Click Initialize button when done.</value>
+  </data>
+  <data name="tagArrivedMsg" xml:space="preserve">
+    <value>Tag arrived.</value>
+  </data>
+  <data name="tagDepartedMsg" xml:space="preserve">
+    <value>Tag departed.</value>
+  </data>
+  <data name="EncodingHdr" xml:space="preserve">
+    <value>Encoding:</value>
+  </data>
+  <data name="IdLengthHdr" xml:space="preserve">
+    <value>ID Length:</value>
+  </data>
+  <data name="IdTypeHdr" xml:space="preserve">
+    <value>ID Type:</value>
+  </data>
+  <data name="LanguageHdr" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="MediaTypeHdr" xml:space="preserve">
+    <value>Media Type:</value>
+  </data>
+  <data name="MsgTextHdr" xml:space="preserve">
+    <value>Message Text:</value>
+  </data>
+  <data name="MsgCharHdr" xml:space="preserve">
+    <value>Message Characters:</value>
+  </data>
+  <data name="MsgBytesHdr" xml:space="preserve">
+    <value>Message Bytes:</value>
+  </data>
+  <data name="VcardBytesHdr" xml:space="preserve">
+    <value>vCard Bytes:</value>
+  </data>
+  <data name="MaxLengthHdr" xml:space="preserve">
+    <value>Max Length:</value>
+  </data>
+  <data name="MsgLengthHdr" xml:space="preserve">
+    <value>Message Length:</value>
+  </data>
+  <data name="PayloadLengthHdr" xml:space="preserve">
+    <value>Payload Length:</value>
+  </data>
+  <data name="PayloadHdr" xml:space="preserve">
+    <value>Payload:</value>
+  </data>
+  <data name="TextHdr" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="vCardDataHdr" xml:space="preserve">
+    <value>vCard Data:</value>
+  </data>
+  <data name="TypeLengthHdr" xml:space="preserve">
+    <value>Type Length:</value>
+  </data>
+  <data name="WellKnownTypeHdr" xml:space="preserve">
+    <value>NFC Forum Well Known Type:</value>
+  </data>
+  <data name="URIHdr" xml:space="preserve">
+    <value>URI:</value>
+  </data>
+  <data name="ArgsHdr" xml:space="preserve">
+    <value>Args:</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="NoId" xml:space="preserve">
+    <value>No ID</value>
+  </data>
+  <data name="bytes" xml:space="preserve">
+    <value>bytes</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="SmartPoster" xml:space="preserve">
+    <value>Smart Poster</value>
+  </data>
+  <data name="URI" xml:space="preserve">
+    <value>URI</value>
+  </data>
+  <data name="GenericCtrl" xml:space="preserve">
+    <value>Generic Control</value>
+  </data>
+  <data name="HandoverReq" xml:space="preserve">
+    <value>Handover Request</value>
+  </data>
+  <data name="HandoverSel" xml:space="preserve">
+    <value>Handover Select</value>
+  </data>
+  <data name="HandoverCar" xml:space="preserve">
+    <value>Handover Carrier</value>
+  </data>
+  <data name="Sig" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="TNF" xml:space="preserve">
+    <value>TNF</value>
+  </data>
+  <data name="UTF16" xml:space="preserve">
+    <value>UTF16</value>
+  </data>
+  <data name="UTF8" xml:space="preserve">
+    <value>UTF8</value>
+  </data>
+  <data name="UTF16LE_Msg" xml:space="preserve">
+    <value>The message data contains a UTF-16LE encoded string that is a URI.</value>
+  </data>
+  <data name="MsgBeginItem" xml:space="preserve">
+    <value>Message Begin</value>
+  </data>
+  <data name="MsgEndItem" xml:space="preserve">
+    <value>Message End</value>
+  </data>
+  <data name="ChunkedFormatItem" xml:space="preserve">
+    <value>Chunked Format</value>
+  </data>
+  <data name="NonChunkedFormatItem" xml:space="preserve">
+    <value>Non-chunked Format</value>
+  </data>
+  <data name="ShortRecordItem" xml:space="preserve">
+    <value>Short Record (Single byte payload length field)</value>
+  </data>
+  <data name="LongRecordItem" xml:space="preserve">
+    <value>Long Record (Four byte payload length field)</value>
+  </data>
+  <data name="HasIdLengthItem" xml:space="preserve">
+    <value>ID Length Field is present.</value>
+  </data>
+  <data name="NoIdLengthItem" xml:space="preserve">
+    <value>ID Length Field is omitted.</value>
+  </data>
+  <data name="AbsUriType" xml:space="preserve">
+    <value>Absolute URI Type</value>
+  </data>
+  <data name="ExternalType" xml:space="preserve">
+    <value>NFC Forum External Type</value>
+  </data>
+  <data name="UnsupportedType" xml:space="preserve">
+    <value>Unsupported type</value>
+  </data>
+  <data name="UnknownType" xml:space="preserve">
+    <value>Unknown Type</value>
+  </data>
+  <data name="Param1" xml:space="preserve">
+    <value>Parameter 1</value>
+  </data>
+  <data name="Param2" xml:space="preserve">
+    <value>Parameter 2</value>
+  </data>
+  <data name="Param3" xml:space="preserve">
+    <value>Parameter 3</value>
+  </data>
+  <data name="MsgType" xml:space="preserve">
+    <value>Message Type</value>
+  </data>
+  <data name="subscribed" xml:space="preserve">
+    <value>subscribed</value>
+  </data>
+  <data name="rejected" xml:space="preserve">
+    <value>rejected</value>
+  </data>
+  <data name="ResumingMsg" xml:space="preserve">
+    <value>Resuming from suspend ...</value>
+  </data>
+  <data name="NameHdr" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="FamNameHdr" xml:space="preserve">
+    <value>Family Name:</value>
+  </data>
+  <data name="FamNamesHdr" xml:space="preserve">
+    <value>Family Names:</value>
+  </data>
+  <data name="GivenNameHdr" xml:space="preserve">
+    <value>Given Name:</value>
+  </data>
+  <data name="GivenNamesHdr" xml:space="preserve">
+    <value>Given Names:</value>
+  </data>
+  <data name="HonPrefixHdr" xml:space="preserve">
+    <value>Honorific Prefix:</value>
+  </data>
+  <data name="HonPrefixesHdr" xml:space="preserve">
+    <value>Honorific Prefixes:</value>
+  </data>
+  <data name="HonSuffixHdr" xml:space="preserve">
+    <value>Honorific Suffix: </value>
+  </data>
+  <data name="HonSuffixesHdr" xml:space="preserve">
+    <value>Honorific Suffixes: </value>
+  </data>
+  <data name="AddressHdr" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="HmAdrHdr" xml:space="preserve">
+    <value>Home Address:</value>
+  </data>
+  <data name="WkAdrHdr" xml:space="preserve">
+    <value>Work Address:</value>
+  </data>
+  <data name="POBoxHdr" xml:space="preserve">
+    <value>Post Office Box:</value>
+  </data>
+  <data name="POBoxesHdr" xml:space="preserve">
+    <value>Post Office Boxes:</value>
+  </data>
+  <data name="ExtAddressHdr" xml:space="preserve">
+    <value>Extended Address:</value>
+  </data>
+  <data name="ExtAddressesHdr" xml:space="preserve">
+    <value>Extended Addresses:</value>
+  </data>
+  <data name="StreetAddrHdr" xml:space="preserve">
+    <value>Street Address:</value>
+  </data>
+  <data name="StreetAddrsHdr" xml:space="preserve">
+    <value>Street Addresses:</value>
+  </data>
+  <data name="CityHdr" xml:space="preserve">
+    <value>Locality (City): </value>
+  </data>
+  <data name="CitiesHdr" xml:space="preserve">
+    <value>Localities (Cities): </value>
+  </data>
+  <data name="RegionHdr" xml:space="preserve">
+    <value>Region (e.g., State or Province):</value>
+  </data>
+  <data name="RegionsHdr" xml:space="preserve">
+    <value>Regions (e.g., States or Provinces):</value>
+  </data>
+  <data name="PostalCodeHdr" xml:space="preserve">
+    <value>Postal Code: </value>
+  </data>
+  <data name="PostalCodesHdr" xml:space="preserve">
+    <value>Postal Codes: </value>
+  </data>
+  <data name="CountryHdr" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="CountriesHdr" xml:space="preserve">
+    <value>Countries:</value>
+  </data>
+  <data name="FormNameHdr" xml:space="preserve">
+    <value>Formatted Name:</value>
+  </data>
+  <data name="NicknameHdr" xml:space="preserve">
+    <value>Nickname:</value>
+  </data>
+  <data name="PhotoHdr" xml:space="preserve">
+    <value>Photo:</value>
+  </data>
+  <data name="BdayHdr" xml:space="preserve">
+    <value>Birthday:</value>
+  </data>
+  <data name="AnnivHdr" xml:space="preserve">
+    <value>Anniversary:</value>
+  </data>
+  <data name="GenderHdr" xml:space="preserve">
+    <value>Gender:</value>
+  </data>
+  <data name="TelHdr" xml:space="preserve">
+    <value>Telephone:</value>
+  </data>
+  <data name="EmailHdr" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="Inet" xml:space="preserve">
+    <value>Internet</value>
+  </data>
+  <data name="InetEmailHdr" xml:space="preserve">
+    <value>Internet Email:</value>
+  </data>
+  <data name="PrefParam" xml:space="preserve">
+    <value>(Preferred)</value>
+  </data>
+  <data name="VoicePre" xml:space="preserve">
+    <value>Voice</value>
+  </data>
+  <data name="CellPre" xml:space="preserve">
+    <value>Cell</value>
+  </data>
+  <data name="ImppUriHdr" xml:space="preserve">
+    <value>Instant Messaging and Presence Protocol URI:</value>
+  </data>
+  <data name="TzHdr" xml:space="preserve">
+    <value>Time Zone:</value>
+  </data>
+  <data name="GeoCodeHdr" xml:space="preserve">
+    <value>Geocode:</value>
+  </data>
+  <data name="TitleHdr" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="RoleHdr" xml:space="preserve">
+    <value>Role:</value>
+  </data>
+  <data name="LogoHdr" xml:space="preserve">
+    <value>Logo:</value>
+  </data>
+  <data name="OrgHdr" xml:space="preserve">
+    <value>Organization:</value>
+  </data>
+  <data name="MemberHdr" xml:space="preserve">
+    <value>Member:</value>
+  </data>
+  <data name="RelatedHdr" xml:space="preserve">
+    <value>Related:</value>
+  </data>
+  <data name="TagsHdr" xml:space="preserve">
+    <value>Categories (tags):</value>
+  </data>
+  <data name="NoteHdr" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+  <data name="ProdIdHdr" xml:space="preserve">
+    <value>Product ID:</value>
+  </data>
+  <data name="RevHdr" xml:space="preserve">
+    <value>Revision:</value>
+  </data>
+  <data name="SndUriHdr" xml:space="preserve">
+    <value>Sound URI:</value>
+  </data>
+  <data name="UidHdr" xml:space="preserve">
+    <value>Unique Identifier:</value>
+  </data>
+  <data name="CpidMapHdr" xml:space="preserve">
+    <value>Client PID Map:</value>
+  </data>
+  <data name="UrlHdr" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="VcVersionHdr" xml:space="preserve">
+    <value>vCard Version:</value>
+  </data>
+  <data name="PubKeyOrAuthCertHdr" xml:space="preserve">
+    <value>Public Key or Authentication Certificate:</value>
+  </data>
+  <data name="BusyTimeUriHdr" xml:space="preserve">
+    <value>Busy Time URI:</value>
+  </data>
+  <data name="CalUserAddrUriHdr" xml:space="preserve">
+    <value>Calendar User Address URI:</value>
+  </data>
+  <data name="CalUriHdr" xml:space="preserve">
+    <value>Calendar URI:</value>
+  </data>
+  <data name="HomeAddrHdr" xml:space="preserve">
+    <value>Home Address:</value>
+  </data>
+  <data name="FacebookUrlHdr" xml:space="preserve">
+    <value>Facebook URL:</value>
+  </data>
+  <data name="VcardParamHdr" xml:space="preserve">
+    <value>vCard Param:</value>
+  </data>
+  <data name="ProxDevNotPresent" xml:space="preserve">
+    <value>Proximity device not present.</value>
+  </data>
+  <data name="MsgTypeHdr" xml:space="preserve">
+    <value>Message Type:</value>
+  </data>
+  <data name="NDEFRecHdr" xml:space="preserve">
+    <value>NDEF Record:</value>
+  </data>
+  <data name="AddlNameHdr" xml:space="preserve">
+    <value>Additional Name:</value>
+  </data>
+  <data name="AddlNamesHdr" xml:space="preserve">
+    <value>Additional Names:</value>
+  </data>
+  <data name="MsgRcvd" xml:space="preserve">
+    <value>Message Received</value>
+  </data>
+</root>
